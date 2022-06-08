@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+.tablesContainer {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 300px;
+  gap: 16px;
+  row-gap: 15rem;
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+  padding: 5rem;
+  padding-bottom: 10rem;
+  margin-top: 1rem;
+}
+.title {
+  background-color: #9999ff;
+  text-align: center;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 0rem;
+  color: black;
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+}
+.tableOutline:hover {
+  transform: scale(1.1, 1.2);
+}
+.title:hover {
+  background-color: #b3b3ff;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.valuesOutline {
+  margin: 8rem;
+}
+.calculatorOutline {
+  margin: 1rem;
+}
+.tableTitle {
+  background-color: #9999ff;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 0rem;
+  color: black;
+  text-align: center;
+}

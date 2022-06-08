@@ -1,0 +1,17 @@
+.navBarButton {
+  color: #000;
+  font-size: 2re;
+  font-style: unset;
+  text-decoration: none;
+}
+.navBarBox {
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 1rem;
+}
+.navBarBox:hover {
+  background-color: #b3b3ff;
+}
